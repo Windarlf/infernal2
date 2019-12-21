@@ -6,7 +6,7 @@ const ayarlar = require('../ayarlar.json');
 var prefix = ayarlar.prefix;
 
 module.exports = client => {
-var asd = [
+var oyun = [
         "w!yardım - Aktif Hizmet ",
         "w!yardım - İlgili Yönetim ",
         "w!yardım - Şehir Sistemi "  
@@ -14,8 +14,9 @@ var asd = [
 
     setInterval(function() {
 
+        var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
 
-        client.user.setActivity("Akabe RP");
+        client.user.setActivity(oyun[random], "Akabe RP" );
         }, 2 * 2500);
     
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Aktif, Komutlar yüklendi!`);
