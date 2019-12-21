@@ -7,9 +7,9 @@ exports.run = async (client, message, params) => {
     const asdf = await client.channels.get(message.channel.id).createInvite()
   message.delete();
   const embed = new Discord.RichEmbed()
-  .setTitle("»  Bot | Canlı Destek")
+  .setTitle("» Akabe Bot | Canlı Destek")
   .setDescription("**Canlı Desteği kullandğın için teşekkür ederiz, Seninle ekibim ilgilenicektir lütfen bekle!**")
-  .setFooter("30 Saniye içinde geri dönülmezse lütfen iletişime geçin <@485741578615521291>")
+  .setFooter("30 Saniye içinde geri dönülmezse lütfen iletişime geçin <@🚨 Yönetim Ekibi @💿 Yetkili Ekip >")
  message.channel.send(embed)
       const invite = new Discord.RichEmbed()
   .setAuthor("» Canlı Destek | Talep")
@@ -29,5 +29,5 @@ exports.run = async (client, message, params) => {
 exports.help = {
   name: 'canlı-destek',
   description: 'Canlı Destek Tablebi Oluşturur.',
-  usage: 'g!canlı-destek'
+  usage: 'w!canlı-destek'
 };

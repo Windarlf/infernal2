@@ -26,6 +26,6 @@ exports.conf = {
 exports.help = {
   name: 'bulanık',
   description: 'Avatarınızı bulanıklaştırıp gösterir.',
-  usage: 'bulanık veya bulanık <@kullanıcı>',
+  usage: 'w!bulanık veya w!bulanık <@kullanıcı>',
  
 };

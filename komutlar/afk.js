@@ -22,7 +22,7 @@ kategori: "kullanıcı"
 
 exports.help = {
 name: "afk",
-description: "Sunucuda veya başka bir sunucuda afk olmanızı sağlar ve birisi sizi etiketleyince afk olduğunuzu sebebi ile belirtir.",
+description: "Sunucuda afk olmanızı sağlar ve birisi sizi etiketleyince afk olduğunuzu sebebi ile belirtir.",
 usage: "afk <sebep>"
 
 }

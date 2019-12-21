@@ -52,6 +52,6 @@ exports.conf = {
 exports.help = {
   name: 'yasakla',
   description: 'İstediğiniz kişiyi sunucudan yasaklar.',
-  usage: 'yasakla <@kullanıcı> <sebep>',
+  usage: 'w!yasakla <@kullanıcı> <sebep>',
  
 };

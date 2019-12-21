@@ -38,5 +38,5 @@ exports.conf = {
 exports.help = {
   name: 'alıntı',
   description: 'Bir Mesaj Alıntılar.',
-  usage: 'g!alıntı mesaj id'
+  usage: 'w!alıntı mesaj id'
 };

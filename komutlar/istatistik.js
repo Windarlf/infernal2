@@ -23,5 +23,5 @@ exports.conf = {
 exports.help = {
   name: 'istatistik',
   description: 'Botun istatistik gösterir.',
-  usage: 'istatistik'
+  usage: 'w!istatistik'
 };
