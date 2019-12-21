@@ -5,17 +5,26 @@ exports.run = async (client, message, params) => {
   let prefix = ayarlar.prefix
  
   if (!params[0]) {
-    message.channel.sendCode("asciidoc",`= BOT ADI Yardım Menüsü =
+    message.channel.sendCode("asciidoc",`= Akabe Bot Yardım Menüsü =
+
 ${prefix}afk <sebep>                  ::  Sunucuda afk olmanızı sağlar ve birisi sizi etiketleyince afk olduğunuzu sebebi ile belirtir.
+
 ${prefix}ailemiz                      ::  Serverdaki sişi sayısını gösterir.
+
 ${prefix}alıntı <mesaj> <id>          ::  Bir Mesaj Alıntılar.
+
 ${prefix}canlı-destek                 ::  Canlı Destek Tablebi Oluşturur.
+
 ${prefix}bulanık <@kullanıcı>         ::  Avatarınızı bulanıklaştırıp gösterir.
+
 ${prefix}havadurumu <Şehir>           ::  hava durumunu gösterir.
+
 ${prefix}istatistik                   ::  Botun istatistik gösterir.
+
 ${prefix}rastgeleşifre                ::  random şifre atar.
+
 ${prefix}wasted <@kullanıcı>          ::  belirtilen kişiye wasted. efekti ekler
-${prefix}rastgeleşifre                ::  random şifre atar.
+
 # Komutlar hakkında yardım almak icin ${prefix}yardım `);
   } else {
     let command = params[0];
@@ -40,5 +49,5 @@ exports.conf = {
 exports.help = {
   name: 'yardım',
   description: 'Komut kategorilerini gösterir.',
-  usage: 'yardım'
+  usage: 'w!yardım'
 };
