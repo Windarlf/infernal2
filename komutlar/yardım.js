@@ -5,7 +5,7 @@ exports.run = async (client, message, params) => {
   let prefix = ayarlar.prefix
  
   if (!params[0]) {
-    message.channel.sendCode("asciidoc",`= Akabe Bot Yardım Menüsü =
+    message.channel.sendCode("asciidoc",`= Mib Bot Yardım Menüsü =
 
 ${prefix}afk <sebep>                  ::  Sunucuda afk olmanızı sağlar ve birisi sizi etiketleyince afk olduğunuzu sebebi ile belirtir.
 
