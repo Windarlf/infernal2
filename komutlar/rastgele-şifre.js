@@ -22,5 +22,5 @@ exports.conf = {
 exports.help = {
   name: 'rastgeleşifre',
   description: 'random şifre atar',
-  usage: 'rastgeleşifre'
+  usage: 'w!rastgeleşifre'
 };
