@@ -5,7 +5,7 @@ exports.run = (bot, message) => {
     const embed = new Discord.RichEmbed();
     const guilds = guildArray.splice(0,25);
     for (const guild of guilds) {
-      embed.addField(`**${guild.name}** - ÜYE SAYISI : **${guild.memberCount}**`, guild.id);
+      embed.addField(`**${guild.name}** - ÜYE SAYISI : **${guild.memberCount}**`);
       embed.setColor('#D97634')
       embed.setTitle('Ailemiz')
       embed.setDescription(`Büyük bir ailedeyiz !. Ailemde **${bot.guilds.size}** kadar sunucu var ! (Akabe Bot)`)
