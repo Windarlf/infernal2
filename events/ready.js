@@ -7,7 +7,7 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
 var oyun = [
-        "w!yardım - Aktif Hizmet ",
+        "w!yardım  - Aktif Hizmet ",
         "w!ailemiz - İlgili Yönetim ",
     ];
 
@@ -15,7 +15,7 @@ var oyun = [
 
         var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
 
-        client.user.setActivity(oyun[random], "Akabe RP" );
+        client.user.setActivity(oyun[random], "MIB" );
         }, 3 * 2500);
     
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Aktif, Komutlar yüklendi!`);
