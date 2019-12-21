@@ -39,5 +39,5 @@ exports.conf = {
 exports.help = {
   name: 'duyur',
   description: 'İstediğiniz şeyi bota duyurtur.',
-  usage: 'w!duyuru [duyurmak istediğiniz şey]'
+  usage: 'w!duyur [duyurmak istediğiniz şey]'
 };
