@@ -43,5 +43,5 @@ exports.conf = {
 exports.help = {
   name: 'youtube',
   description: 'Tüm komutları listeler. İsterseniz bir komut hakkında yardım eder..',
-  usage: 'youtube'
+  usage: 'w!youtube'
 };

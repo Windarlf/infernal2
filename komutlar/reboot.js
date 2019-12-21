@@ -31,5 +31,5 @@ exports.conf = {
 exports.help = {
   name: 'reboot',
   description: '[YAPIMCI]',
-  usage: 'reboot'
+  usage: 'w!reboot'
 };

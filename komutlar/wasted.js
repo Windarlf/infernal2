@@ -32,6 +32,6 @@ exports.conf = {
 
 exports.help = {
   name: 'wasted',
-  description: 'wasted.',
-  usage: 'wasted'
+  description: 'belirtilen kişiye wasted. efekti ekler',
+  usage: 'w!wasted <@kullanıcı>'
 };
